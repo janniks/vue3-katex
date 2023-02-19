@@ -5,7 +5,7 @@ import { terser } from 'rollup-plugin-terser'
 
 export default {
   input: 'src/plugin.js',
-  external: ['deepmerge', 'katex', 'katex/dist/contrib/auto-render.js', 'vue', 'vue-dompurify-html'],
+  external: ['deepmerge', 'katex', 'katex/dist/contrib/auto-render.js', 'vue'],
   output: [
     {
       file: 'dist/vue3-katex.cjs.js',
